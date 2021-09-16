@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "xAIM"
+summaryLength = "20"
+
+# search
+search = true

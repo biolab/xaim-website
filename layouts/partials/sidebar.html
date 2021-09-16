@@ -1,0 +1,17 @@
+<div class="col-lg-4">
+
+	<div class="widget">
+	  <h4 class="mt-5 mb-4">Latest news</h4>
+	  {{ range first 3 ( where site.Pages "Type" "news_art") }}
+	  <div class="media mb-4">
+		<div class="media-body">
+		  <ul class="list-inline d-flex justify-content-between mb-2">
+			<li class="list-inline-item">Author: {{ .Params.author}}</li>
+			<li class="list-inline-item">{{ .PublishDate.Format "Jan 02, 2006" }}</li>
+		  </ul>
+		  <h6><a class="text-dark" href="{{ .Permalink }}">{{.Title}}</a></h6>
+		</div>
+	  </div>
+	  {{ end }}
+	</div>
+</div>
