@@ -1050,7 +1050,7 @@ section {
   border-left: 1px solid #eceff0;
 }
 
-.clients .client-logo {
+.clients .client-logo  {
   display: flex;
   justify-content: center;
   align-items: center;

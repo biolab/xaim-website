@@ -1,63 +1,113 @@
-<!-- ======= Team Section ======= -->
-<section id="team" class="team mt-4">
-    <div class="container">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
-      <div class="section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
+    <!-- Demo styles -->
+    <style>
 
-      <div class="row">
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
 
-        <div class="col-lg-4 col-md-6">
-          <div class="member" data-aos="zoom-in">
-            <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-            <div class="member-info">
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <section id="team" class="pb-0">
+    <div class="py-2 team4">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-7 text-center">
+                    <h2 class="color-grey mb-3">Experienced & Professional Team</h2>
+                </div>
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="member" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-            <div class="member-info">
-              <h4>Sarah Jhonson</h4>
-              <span>Product Manager</span>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
+    
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper mb-5">
+                    {{ range where site.RegularPages "Type" "team" }}
+                    <div class="swiper-slide">
+                        <div class="row px-5 mx-3">
+                            <div class="col-md-12">
+                                <img src="{{ .Params.profile_picture }}"
+                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">{{ .Params.Name }} {{ .Params.Surname }}</h5>
+                                    <h6 class="subtitle mb-3">{{ .Params.Occupation }}</h6>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i class="bi bi-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i class="bi bi-facebook"></i></a>
+                                        </li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="text-decoration-none d-block px-1"><i class="bi bi-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
-          </div>
+    
         </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="member" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-            <div class="member-info">
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
+    
     </div>
-  </section><!-- End Team Section -->
+</section>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
