@@ -2,7 +2,7 @@
   <div class="container">
 
     <div class="section-title" data-aos="fade-up">
-      <a href="news"> <h2 class="dark-hover">Latest News</h2> </a>
+      <a href="news"> <h2 class="dark-hover">{{ site.Params.news_title }}</h2> </a>
     </div>
     <div class="row">
       {{ range where site.RegularPages "Type" "news_art" | first 3}}

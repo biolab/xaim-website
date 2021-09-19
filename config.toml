@@ -3,5 +3,30 @@ languageCode = "en-us"
 title = "xAIM"
 summaryLength = "20"
 
-# search
-search = true
+[params]
+# hero
+hero_title ="eXplainable Artificial Intelligence in Healthcare Management"
+hero_sub_title ="We are team of talented designers making websites with Bootstrap"
+
+# about 
+about_title ="Learn more about us"
+
+# team
+team_title = "Experienced & Professional Team"
+
+# news
+news_title = "Latest News"
+
+# partners
+partners_title = "Partners"
+partners_sub_title = "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas."
+
+# contact
+contact_title ="Contact Us"
+location = "A108 Adam Street, New York, NY 535022"
+email = "info@example.com"
+phone_number = "+1 5589 55488 55"
+
+# newsletter
+newsletter_title = "Our Newsletter"
+newsletter_sub_title = "Tamen quem nulla quae legam multos aute sint culpa legam noster magna"

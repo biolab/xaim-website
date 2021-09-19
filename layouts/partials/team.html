@@ -1,113 +1,146 @@
-  <head>
-    <meta charset="utf-8" />
-    <title>Swiper demo</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <!-- Demo styles -->
-    <style>
+  <!-- Demo styles -->
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
 
-      .swiper {
-        width: 100%;
-        height: 100%;
-      }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
 
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
 
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
 
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    </style>
-  </head>
-
-  <body>
-    <!-- Swiper -->
-    <section id="team" class="pb-0">
+<body>
+  <!-- Swiper -->
+  <section id="team" class="pb-0">
     <div class="py-2 team4">
-        <div class="container">
-            <div class="row justify-content-center mb-4">
-                <div class="col-md-7 text-center">
-                    <h2 class="color-grey mb-3">Experienced & Professional Team</h2>
-                </div>
-            </div>
-    
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper mb-5">
-                    {{ range where site.RegularPages "Type" "team" }}
-                    <div class="swiper-slide">
-                        <div class="row px-5 mx-3">
-                            <div class="col-md-12">
-                                <img src="{{ .Params.profile_picture }}"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <div class="pt-2">
-                                    <h5 class="mt-4 font-weight-medium mb-0">{{ .Params.Name }} {{ .Params.Surname }}</h5>
-                                    <h6 class="subtitle mb-3">{{ .Params.Occupation }}</h6>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i class="bi bi-twitter"></i></a>
-                                        </li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i class="bi bi-facebook"></i></a>
-                                        </li>
-                                        <li class="list-inline-item"><a href="#"
-                                                class="text-decoration-none d-block px-1"><i class="bi bi-linkedin"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-    
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-7 text-center">
+            <h2 class="color-grey mb-3">{{ site.Params.team_title }}</h2>
+          </div>
         </div>
-    
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper mb-5">
+            {{ range where site.RegularPages "Type" "team" }}
+            <div class="swiper-slide">
+              <div class="row px-5 mx-3">
+                <div class="col-md-12">
+                  <img src="{{ .Params.profile_picture }}" alt="wrapkit" class="img-fluid rounded-circle" />
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="pt-2">
+                    <h5 class="mt-4 font-weight-medium mb-0">{{ .Params.Name }} {{ .Params.Surname }}</h5>
+                    <h6 class="subtitle mb-3">{{ .Params.Occupation }}</h6>
+                    <ul class="list-inline">
+
+                      <!-- github -->
+                      {{ if and (not ( eq .Params.github "" )) ( isset .Params "github" ) }}
+                      <li class="list-inline-item"><a href="{{ .Params.github }}"
+                          class="text-decoration-none d-block px-1"><i class="bi bi-github"></i></a>
+                      </li>
+                      {{ end }}
+
+                      <!-- facebook -->
+                      {{ if and (not ( eq .Params.facebook "" )) ( isset .Params "facebook" ) }}
+                      <li class="list-inline-item"><a href="{{ .Params.facebook }}"
+                          class="text-decoration-none d-block px-1"><i class="bi bi-facebook"></i></a>
+                      </li>
+                      {{ end }}
+
+                      <!-- linkedin -->
+                      {{ if and (not ( eq .Params.linkedin "" )) ( isset .Params "linkedin" ) }}
+                      <li class="list-inline-item"><a href="{{ .Params.linkedin }}"
+                          class="text-decoration-none d-block px-1"><i class="bi bi-linkedin"></i></a>
+                      </li>
+                      {{ end }}
+
+                      <!-- twitter -->
+                      {{ if and (not ( eq .Params.twitter "" )) ( isset .Params "twitter" ) }}
+                      <li class="list-inline-item"><a href="{{ .Params.twitter }}"
+                          class="text-decoration-none d-block px-1"><i class="bi bi-twitter"></i></a>
+                      </li>
+                      {{ end }}
+
+                      <!-- skype -->
+                      {{ if and (not ( eq .Params.skype "" )) ( isset .Params "skype" ) }}
+                      <li class="list-inline-item"><a href="{{ .Params.skype }}"
+                          class="text-decoration-none d-block px-1"><i class="bi bi-skype"></i></a>
+                      </li>
+                      {{ end }}
+
+                      <!-- discord -->
+                      {{ if and (not ( eq .Params.discord "" )) ( isset .Params "discord" ) }}
+                      <li class="list-inline-item"><a href="{{ .Params.discord }}"
+                          class="text-decoration-none d-block px-1"><i class="bi bi-discord"></i></a>
+                      </li>
+                      {{ end }}
+
+                      <!-- slack -->
+                      {{ if and (not ( eq .Params.slack "" )) ( isset .Params "slack" ) }}
+                      <li class="list-inline-item"><a href="{{ .Params.slack }}"
+                          class="text-decoration-none d-block px-1"><i class="bi bi-slack"></i></a>
+                      </li>
+                      {{ end }}
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
     </div>
-</section>
+  </section>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script>
-  </body>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
