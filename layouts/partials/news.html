@@ -2,7 +2,7 @@
   <div class="container">
 
     <div class="section-title" data-aos="fade-up">
-      <h2>Latest News</h2>
+      <a href="news"> <h2 class="dark-hover">Latest News</h2> </a>
     </div>
     <div class="row">
       {{ range where site.RegularPages "Type" "news_art" | first 3}}
@@ -11,7 +11,7 @@
           <div class="pic"><a href="{{.Permalink}}"><img src="{{ .Params.Image | absURL }}" class="img-fluid" alt=""></a>
           </div>
           <div class="pad-30">
-            <h2 class="title"><a href="">{{ .Params.Title }}</a></h2>
+            <h2 class="title"><a href="{{.Permalink}}">{{ .Params.Title }}</a></h2>
             <p class="description">{{ .Summary }}</p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>{{ .Title }} &mdash; {{ .Site.Author.name }}</title>
+<title>{{ .Title }} </title>
 {{ if .Author -}}
     <meta name="author" content="{{ .Site.Author.name }}">
 {{- end }}
@@ -14,9 +14,10 @@
 {{ .Hugo.Generator }}
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/adds.css">
+
   <!-- Favicons -->
-  <link href="{{ .Site.BaseURL }}assets/img/favicon.png" rel="icon">
-  <link href="{{ .Site.BaseURL }}assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ .Site.BaseURL }}assets/img/xaim-logo.png" rel="icon">
+  <link href="{{ .Site.BaseURL }}assets/img/xaim-logo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">

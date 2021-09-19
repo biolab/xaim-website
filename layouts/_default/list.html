@@ -1,10 +1,36 @@
-{{ partial "header.html" . }}
-	<main>
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
-	</main>
-{{ partial "sidebar.html" . }}
+{{ partial "header_single.html" . }}
+<main>
+	<!-- page-title -->
+	<section class="pb-3"></section>
+	<section class="section cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>{{ .Title }}</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /page-title -->
+	<div class="container ">
+		<div class="row justify-content-center">
+			<div class="col-6 ">
+
+				<div class="widget">
+					{{ range ( where site.Pages "Type" "news_art") }}
+					<div class="media mb-4">
+						<div class="media-body">
+							<ul class="list-inline d-flex justify-content-between mb-2">
+								<li class="list-inline-item">Author: {{ .Params.author}}</li>
+								<li class="list-inline-item">{{ .PublishDate.Format "Jan 02, 2006" }}</li>
+							</ul>
+							<h6><a class="text-dark fs-18" href="{{ .Permalink }}">{{.Title}}</a></h6>
+						</div>
+					</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
 {{ partial "footer.html" . }}

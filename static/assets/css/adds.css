@@ -179,3 +179,16 @@
 a.text-dark:hover {
   color: #00adbd !important;
 }
+
+.fs-18{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dark-hover {
+  transition: all 0.3s linear;
+}
+
+.dark-hover:hover {
+  color: #000000 !important;
+}
