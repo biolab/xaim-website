@@ -114,6 +114,14 @@
                       </li>
                       {{ end }}
 
+
+                                            <!-- web -->
+                                            {{ if and (not ( eq .Params.web "" )) ( isset .Params "web" ) }}
+                                            <li class="list-inline-item"><a href="{{ .Params.web }}"
+                                                class="text-decoration-none d-block px-1"><i class="bi bi-link"></i></a>
+                                            </li>
+                      {{ end }}
+
                     </ul>
                   </div>
                 </div>
