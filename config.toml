@@ -6,26 +6,26 @@ summaryLength = "20"
 [params]
 # hero
 hero_title ="eXplainable Artificial Intelligence in Healthcare Management"
-hero_sub_title ="We are team of talented designers making websites with Bootstrap"
+hero_sub_title ="A Connecting Europe Facility in Telecom project INEA/CEF/ICT/A2020/2276680"
 
 # about 
-about_title ="Learn more about us"
+about_title ="About the Project"
 
 # team
-team_title = "Experienced & Professional Team"
+team_title = "Project Team"
 
 # news
 news_title = "Latest News"
 
 # partners
 partners_title = "Partners"
-partners_sub_title = "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas."
+partners_sub_title = ""
 
 # contact
 contact_title ="Contact Us"
-location = "A108 Adam Street, New York, NY 535022"
-email = "info@example.com"
-phone_number = "+1 5589 55488 55"
+location = "Via San Felice 5, 27100 Pavia, Italy"
+email = "mariachiara.demartini@unipv.it"
+phone_number = "+39.0382.986201"
 
 # newsletter
 newsletter_title = "Our Newsletter"
