@@ -53,10 +53,10 @@
 
         <div class="swiper mySwiper">
           <div class="swiper-wrapper mb-5">
-            {{ range where site.RegularPages "Type" "team" }}
+            {{ range sort (where site.RegularPages "Type" "team") "Params.surname" "asc" }}
             <div class="swiper-slide">
-              <div class="row px-5 mx-3">
-                <div class="col-md-12">
+              <div   class="row team-border1 team-border2 " >
+                <div class="col">
                   <img src="{{ .Params.profile_picture }}" alt="wrapkit" class="img-fluid rounded-circle" />
                 </div>
                 <div class="col-md-12 text-center">
