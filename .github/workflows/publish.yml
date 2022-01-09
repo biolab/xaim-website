@@ -7,10 +7,10 @@ on:
   # Trigger the workflow on push or pull request for master branch
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
   
   # Manually trigger workflow
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-18.04
     steps:
-      - name: Checkout master
+      - name: Checkout main
         uses: actions/checkout@v1
 
       - name: Build hugo page
@@ -34,7 +34,7 @@ jobs:
 
       # Deploy to local repo
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
