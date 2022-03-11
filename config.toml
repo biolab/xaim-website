@@ -4,6 +4,9 @@ title = "xAIM"
 summaryLength = "20"
 
 [params]
+# header
+masters_link = "https://www.nytimes.com/games/wordle/index.html"
+
 # hero
 hero_title ="eXplainable Artificial Intelligence in Healthcare Management"
 hero_sub_title ="A Connecting Europe Facility in Telecom project INEA/CEF/ICT/A2020/2276680"
