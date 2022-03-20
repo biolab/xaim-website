@@ -211,3 +211,32 @@ td {
     margin-left: 1rem;
   }
 } 
+
+.header-title-logo {
+  background-color: rgb(88, 127, 204);
+  color: rgb(255, 255, 255) !important;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.header-title-logo:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(88, 127, 204) !important;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.header-title-logo {
+  transition: all 0.3s linear;
+}
+
+.size-footer-image {
+  max-width: 70%;
+  height: auto;
+  float:right;
+
+}

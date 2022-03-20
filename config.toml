@@ -9,10 +9,10 @@ masters_link = "https://www.nytimes.com/games/wordle/index.html"
 
 # hero
 hero_title ="eXplainable Artificial Intelligence in Healthcare Management"
-hero_sub_title ="A Connecting Europe Facility in Telecom project INEA/CEF/ICT/A2020/2276680"
+hero_sub_title ="An Interdisciplinary Master’s Program at the Intersection of AI and Health Care"
 
 # about 
-about_title ="About the Project"
+about_title ="About"
 
 # team
 team_title = "Project Team"
@@ -21,8 +21,8 @@ team_title = "Project Team"
 news_title = "Latest News"
 
 # partners
-partners_title = "Partners"
-partners_sub_title = ""
+partners_title = "Partner Universities"
+partners_sub_title = "The masters is coordinated by University of Pavia, and involves world-renown experts from leading explainable AI institutions in Europe"
 
 # contact
 contact_title ="Contact Us"
