@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/images/uploads"  
+public_folder: "/images/uploads"
+
+collections:
+  - name: "news" 
+    label: "News"  
+    folder: "content/news"  
+    slug: "{{year}}-{{month}}-{{slug}}"
+    create: true  
+    fields: 
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Thumbnail Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "type", widget: "hidden", default: "news_art"}
+
