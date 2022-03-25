@@ -3,9 +3,21 @@ backend:
   branch: main
 
 media_folder: "static/images/uploads"  
-public_folder: "/images/uploads"
+public_folder: "/images/news_images"
 
 collections:
+  - name: "home-page" 
+    label: "Home page"  
+    folder: "content"  
+    create: false   
+    fields: 
+      - { label: "Hero title", name: "hero_title", widget: "string" }
+      - { label: "Hero subtitle", name: "hero_subtitle", widget: "string" }
+      - { label: "About section title", name: "about_title", widget: "string" }
+      - { label: "About section text", name: "about_text", widget: "string" }
+      - { label: "Partner Universities section title", name: "partner_title", widget: "string" }
+      - { label: "Partner Universities section subtitle", name: "partner_subtitle", widget: "string" }
+
   - name: "news" 
     label: "News"  
     folder: "content/news"  
@@ -40,18 +52,6 @@ collections:
     folder: "content/masters-programme"  
     create: false   
     fields: 
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "real_title", widget: "string" }
       
-  - name: "home-page" 
-    label: "Home page"  
-    folder: "content"  
-    create: false   
-    fields: 
-      - { label: "Hero title", name: "title", widget: "string" }
-      - { label: "Hero subtitle", name: "subtitle", widget: "string" }
-      - { label: "About section title", name: "about_title", widget: "string" }
-      - { label: "About section text", name: "about_text", widget: "string" }
-      - { label: "Partner Universities section title", name: "partner_title", widget: "string" }
-      - { label: "Partner Universities section subtitle", name: "partner_subtitle", widget: "string" }
-
 
