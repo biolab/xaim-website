@@ -7,8 +7,8 @@
 			<div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
 				data-aos="fade-up">
 				<div>
-					<h1>{{ site.Params.hero_title }}</h1>
-					<h2>{{ site.Params.hero_sub_title }}</h2>
+					<h1>{{ .Params.Title }}</h1>
+					<h2>{{ .Params.SubTitle }}</h2>
 					<a href="/pdf-files/xAIM%20Master's%20Brochure.pdf" class="btn-get-started scrollto"  target="_blank">See Brochure</a>
 				</div>
 			</div>
@@ -32,9 +32,9 @@
 				</div>
 				<div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
 					<div class="content pt-4 pt-lg-0">
-						<h3>{{ site.Params.about_title }}</h3>
+						<h3>{{ .Params.about_title }}</h3>
 						<p>
-							Dear prospective students: we offer an interdisciplinary training program in data science, AI, and healthcare. You will learn about the role and applications of artificial intelligence in biomedicine. You will be able to identify the opportunities and challenges of implementing exciting new data-driven technologies in a medical environment. We will teach you how to analyze large, heterogeneous, and complex datasets representative of the healthcare sector, interpret the results and communicate them to the stakeholders. Our program focuses on state-of-the-art AI techniques, identifying current and possible future AI applications. The curriculum is practical and hands-on, emphasizing AI applications' ethical and social implications. 
+							{{ .Params.about_text }}
 						</p>
 					</div>
 				</div>
