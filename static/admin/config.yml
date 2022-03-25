@@ -11,10 +11,11 @@ collections:
     folder: "content"  
     create: false   
     fields: 
+      - { label: "Title", name: "hero_title", widget: "string" }
       - { label: "Hero title", name: "hero_title", widget: "string" }
       - { label: "Hero subtitle", name: "hero_subtitle", widget: "string" }
       - { label: "About section title", name: "about_title", widget: "string" }
-      - { label: "About section text", name: "about_text", widget: "string" }
+      - { label: "About section text", name: "body", widget: "markdown" }
       - { label: "Partner Universities section title", name: "partner_title", widget: "string" }
       - { label: "Partner Universities section subtitle", name: "partner_subtitle", widget: "string" }
 
