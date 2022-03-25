@@ -11,6 +11,7 @@ collections:
     folder: "content"  
     create: false   
     fields: 
+      - { label: "Title", name: "title", widget: "hidden"}
       - { label: "Hero title", name: "hero_title", widget: "string" }
       - { label: "Hero subtitle", name: "hero_subtitle", widget: "string" }
       - { label: "About section title", name: "about_title", widget: "string" }
@@ -28,6 +29,7 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Thumbnail Image", name: "image", widget: "image" }
+      - {label: "Body", name: "body", widget: "markdown"}
       - { label: "Layout", name: "type", widget: "hidden", default: "news_art"}
   
   - name: "faq" 
@@ -51,6 +53,7 @@ collections:
     folder: "content/masters-programme"  
     create: false   
     fields: 
+      - { label: "Title", name: "title", widget: "hidden"}
       - { label: "Title", name: "real_title", widget: "string" }
       
 
