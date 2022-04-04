@@ -5,6 +5,9 @@ backend:
 media_folder: "static/images/uploads"  
 public_folder: "/images/news_images"
 
+publish_mode: editorial_workflow
+
+
 collections:
   - name: "home-page" 
     label: "Home page"  
