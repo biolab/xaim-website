@@ -6,7 +6,6 @@ hero_subtitle: "An Interdisciplinary Master’s Program at the Intersection of A
 
 about_title: "About"
 
-
 partner_title: "Partner Universities"
 partner_subtitle: "The masters is coordinated by University of Pavia, and involves world-renown experts from leading explainable AI institutions in Europe"
 ---

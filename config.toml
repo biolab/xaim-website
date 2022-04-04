@@ -7,22 +7,11 @@ summaryLength = "20"
 # header
 masters_link = "https://www.nytimes.com/games/wordle/index.html"
 
-# hero
-hero_title ="eXplainable Artificial Intelligence in Healthcare Management"
-hero_sub_title ="An Interdisciplinary Master’s Program at the Intersection of AI and Health Care"
-
-# about 
-about_title ="About"
-
 # team
 team_title = "Project Team"
 
 # news
 news_title = "Latest News"
-
-# partners
-partners_title = "Partner Universities"
-partners_sub_title = "The masters is coordinated by University of Pavia, and involves world-renown experts from leading explainable AI institutions in Europe"
 
 # contact
 contact_title ="Contact Us"
@@ -30,6 +19,8 @@ location = "Via San Felice 5, 27100 Pavia, Italy"
 email = "info@xaim.eu"
 phone_number = "/"
 
-# newsletter
-newsletter_title = "Our Newsletter"
-newsletter_sub_title = "Every three months, we summarize the progress of our work in a short newsletter."
+#social media
+twitter = "https://twitter.com/"
+facebook = "https://www.facebook.com/"
+instagram = "https://instagram.com/"
+linkedin = "https://www.linkedin.com/"

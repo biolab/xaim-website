@@ -15,10 +15,17 @@
       </div>
 
       <div class="header-social-links d-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        {{ if (not (isset site.Params "twitter")) | or (eq site.Params.twitter "") }}
+        {{ else }} <a href="{{ site.Params.twitter }}" class="twitter"><i class="bi bi-twitter"></i></a> {{ end }}
+
+        {{ if (not (isset site.Params "facebook")) | or (eq site.Params.facebook "") }}
+        {{ else }} <a href="{{ site.Params.facebook }}" class="facebook"><i class="bi bi-facebook"></i></a> {{ end }}
+
+        {{ if (not (isset site.Params "instagram")) | or (eq site.Params.instagram "") }}
+        {{ else }} <a href="{{ site.Params.instagram }}" class="instagram"><i class="bi bi-instagram"></i></a> {{ end }}
+
+        {{ if (not (isset site.Params "linkedin")) | or (eq site.Params.linkedin "") }}
+        {{ else }} <a href="{{ site.Params.linkedin }}" class="linkedin"><i class="bi bi-linkedin"></i></a> {{ end }}
       </div>
 
     </div>
