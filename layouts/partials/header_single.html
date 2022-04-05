@@ -14,6 +14,21 @@
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="{{ .Site.BaseURL }}#hero">Home</a></li>
+          <li><a class="nav-link  " href="/faq">FAQ</a></li>
+       <li><a class="nav-link scrollto" href="{{ .Site.BaseURL }}/news">News</a></li>
+       <li><a class="nav-link nav-link-special" href="{{ .Site.BaseURL }}/masters-programme">Master’s Programme</a></li>
+       <li><a class="nav-link  " href="{{ .Site.BaseURL }}/project">The Project</a></li>
+
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      
+
+
       <div class="header-social-links d-flex align-items-center">
         {{ if (not (isset site.Params "twitter")) | or (eq site.Params.twitter "") }}
         {{ else }} <a href="{{ site.Params.twitter }}" class="twitter"><i class="bi bi-twitter"></i></a> {{ end }}
