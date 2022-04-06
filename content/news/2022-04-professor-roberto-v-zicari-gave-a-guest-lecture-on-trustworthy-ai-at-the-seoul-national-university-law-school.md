@@ -2,7 +2,7 @@
 title: "Professor Roberto V. Zicari gave a Guest Lecture on Trustworthy AI at
   the Seoul National University Law School "
 author: Dennis Vetter
-date: 2022-04-06T12:29:13.743Z
+date: 2022-04-06T12:37:02.051Z
 image: /images/news-images/snulaw.jpeg
 type: news_art
 ---
