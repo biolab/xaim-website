@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://xaim.eu"
 languageCode = "en-us"
 title = "xAIM"
 summaryLength = "20"
