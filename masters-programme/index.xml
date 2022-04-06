@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Masters Programme on xAIM</title>
-    <link>https://xaim.eu/masters-programme/</link>
+    <link>/masters-programme/</link>
     <description>Recent content in Masters Programme on xAIM</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://xaim.eu/masters-programme/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/masters-programme/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
