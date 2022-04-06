@@ -5,7 +5,7 @@ summaryLength = "20"
 
 [params]
 # header
-masters_link = "https://www.nytimes.com/games/wordle/index.html"
+masters_link = "https://xaim.eu"
 
 # team
 team_title = "Project Team"
@@ -23,4 +23,4 @@ phone_number = "/"
 twitter = ""
 facebook = ""
 instagram = ""
-linkedin = "https://www.linkedin.com/"
+linkedin = "https://www.linkedin.com/company/xaim-project/"
