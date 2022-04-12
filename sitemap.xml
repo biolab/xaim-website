@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-04-06T12:37:02+00:00</lastmod>
+    <lastmod>2022-04-12T13:44:29+00:00</lastmod>
   </url><url>
     <loc>/news/</loc>
-    <lastmod>2022-04-06T12:37:02+00:00</lastmod>
+    <lastmod>2022-04-12T13:44:29+00:00</lastmod>
+  </url><url>
+    <loc>/news/2022-04-test-title/</loc>
+    <lastmod>2022-04-12T13:44:29+00:00</lastmod>
   </url><url>
     <loc>/news/2022-04-professor-roberto-v-zicari-gave-a-guest-lecture-on-trustworthy-ai-at-the-seoul-national-university-law-school/</loc>
     <lastmod>2022-04-06T12:37:02+00:00</lastmod>
