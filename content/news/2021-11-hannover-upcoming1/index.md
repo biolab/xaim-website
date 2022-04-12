@@ -4,7 +4,7 @@ author: "Blaž Zupan"
 date: 2021-11-04T16:00:00+06:00
 description: ""
 type: "news_art"
-image: "images/news-images/2021-11-hannover.jpg"
+image: "2021-11-hannover.jpg"
 
 ---
 

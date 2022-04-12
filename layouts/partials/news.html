@@ -8,7 +8,7 @@
       {{ range where site.RegularPages "Type" "news_art" | first 3}}
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
         <div class="icon-box icon-box-blue">
-          <div class="pic"><a href="{{.Permalink}}"><img src="{{ .Params.Image | absURL }}" class="img-fluid" alt=""></a>
+          <div class="pic"><a href="{{.Permalink}}">{{ $image := .Page.Resources.GetMatch .Params.image }}<img src="{{ $image.RelPermalink }}" class="img-fluid" alt=""></a>
           </div>
           <div class="pad-30">
             <h2 class="title"><a href="{{.Permalink}}">{{ .Params.Title }}</a></h2>

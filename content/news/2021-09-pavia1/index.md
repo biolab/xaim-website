@@ -4,7 +4,7 @@ author: "Blaz Zupan"
 date: 2021-09-24T12:00:00+01:00
 description: "the first on-site meeting of the project"
 type: "news_art"
-image: "images/news-images/2021-09-pavia.jpg"
+image: "2021-09-pavia.jpg"
 
 ---
 

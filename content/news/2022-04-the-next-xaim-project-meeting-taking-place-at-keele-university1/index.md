@@ -2,7 +2,7 @@
 title: The next xAIM project meeting taking place at Keele University
 author: Roberto Zicari
 date: 2022-04-05T07:26:50.189Z
-image: /images/news-images/keel.jpeg
+image: keel.jpeg
 type: news_art
 ---
 ***The next xAIM project meeting, hosted by Professor Ian CUMMING - Professor of Global Healthcare Workforce and Strategy- will take place at Keele University, Newcastle (Staffordshire), on the 7th and 8th July 2022.***

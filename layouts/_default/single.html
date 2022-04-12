@@ -23,7 +23,7 @@
 			<li class="list-inline-item"><i class="bi bi-calendar mr-2"></i>   {{ .PublishDate.Format "Jan 02, 2006" }}</li>
 		  </ul>
 		  <article class="content">
-			<img src="{{.Params.Image | absURL }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+			{{ $image := .Page.Resources.GetMatch .Params.image }}<img src="{{ $image.RelPermalink }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
 			{{.Content}}
 		  </article>
 		</div>
