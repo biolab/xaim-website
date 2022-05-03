@@ -1,5 +1,5 @@
 ---
-title: The Minister of Science of Lower Saxony visited L3S
+title: "The Minister of Science of Lower Saxony visited L3S"
 author: Franziska Schoger
 date: 2022-04-29T12:12:29.223Z
 image: besuchminister.jpg
