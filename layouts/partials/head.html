@@ -11,7 +11,7 @@
 {{ if .RSSLink -}}
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
 {{- end }}
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
 
 
