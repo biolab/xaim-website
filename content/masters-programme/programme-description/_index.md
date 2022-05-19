@@ -80,4 +80,3 @@ The project is coordinated by the University of Pavia and includes the Goethe Un
 
 This master's degree program is run under the context of Action No 2020-EU-IA-0064, co-financed by the EU CEF Telecom under GA nr. INEA/CEF/ICT/A2020/2265375.
 
-{{< two-col-table col1="dawwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww" col2="defawdawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawd">}}
