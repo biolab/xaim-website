@@ -4,6 +4,8 @@ title: "Home Page"
 hero_title: "eXplainable Artificial Intelligence in Healthcare Management"
 hero_subtitle: "An Interdisciplinary Master’s Program at the Intersection of AI and Health Care"
 
+cfp: "The call for applications is now open! You can apply by June 30th 2022."
+
 about_title: "About"
 
 partner_title: "Partner Universities"
