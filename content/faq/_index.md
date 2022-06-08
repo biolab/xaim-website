@@ -31,13 +31,13 @@ The following administrative fees are charged to each student:
 - admission fee to the public selection equals € 35 to be paid concurrently with the online registration;
 - graduation fee (including stamp duty) of € 116 to be paid concurrently with the graduation application.
 
-**5. Will I get an official title from any of the universities involved in the Master's?**
-   
-The University of Pavia will award the Master's degree. At the end of the Master's, students who have carried out all the activities and complied with the required obligations, after passing the final exam (defence of the thesis), will be awarded the 1st Level Master Degree in "eXplainable Artificial Intelligence in healthcare Management (xAIM)".
+**5. When does the first semester start and end?**
 
-**6. How many students do you foresee for the first edition of the Master?**
+The semester starts on September 26, 2022 - end on December 22, 2022.
 
-From a minimum of 20 up to 35 students.
+**6. When does the second semester start and end?**
+
+Start on February 20, 2023 - end May 27, 2023.
 
 **7. Will there be any exams?**
     
@@ -45,11 +45,23 @@ There is an assessment of learning for each course through an intermediate test 
 
 The final exam will consist of a thesis defence related to a project carried out under the supervision of a teacher of the Master's on the topics addressed during the courses, both during the practical exercises and the internship.
 
-**8. Can I participate in the Master's part-time?**
+**8. When is the final exam planned?**
+
+March 2024 (exact date TBC).
+
+**9. Will I get an official title from any of the universities involved in the Master's?**
+   
+The University of Pavia will award the Master's degree. At the end of the Master's, students who have carried out all the activities and complied with the required obligations, after passing the final exam (defence of the thesis), will be awarded the 1st Level Master Degree in "eXplainable Artificial Intelligence in healthcare Management (xAIM)".
+
+**10. How many students do you foresee for the first edition of the Master?**
+
+From a minimum of 20 up to 35 students.
+
+**11. Can I participate in the Master's part-time?**
   
 This is not possible since attendance is compulsory for at least 75% of the total amount of hours. The learning period cannot be suspended. No transfer to other Masters is allowed.
 
-**9. When should I register, and which documentation will you ask for?**
+**12. When should I register, and which documentation will you ask for?**
    
 The application for the first intake (October 2022) opens in Spring 2022.
 The following documents will be required to apply to the call:
