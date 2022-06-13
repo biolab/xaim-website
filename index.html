@@ -139,8 +139,39 @@
 	</div>
 
 </section>
-
+ 
 <main id="main">
+
+	
+	
+
+
+  
+  
+
+  <div  id="onload" class="modal fade" tabindex="-1" aria-labelledby="onloadLabel" aria-hidden="true">
+    <div class="  modal-xl modal-transition modal-dialog" role="document">
+        
+        <div class="modal-content">
+          
+          <div class="modal-body">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-1"></div>
+                <div class="col-6 "><p class="pt-3 pr-2">The call for applications is now open! <b>You can apply by June 30th 2022.</b></p></div>
+                <div class="col-2 pl-auto"><a type="button" href="/masters-programme/registration/" class="btn btn-signup-one">Learn more <i class="fas fa-book ml-1"></i></a></div>
+                <div class="col-2 pl-auto"><a type="button" class="btn btn-signup-two waves-effect" data-bs-dismiss="modal">No, thanks</a></div>
+                <div class="col-1"></div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+  
+
+
+
 
 	
 	<section id="about" class="about">
@@ -345,6 +376,10 @@
 
   
   <script src="/assets/js/main.js"></script>
+    
+    <script src="/assets/jq/jquery-3.6.0.min.js"></script>
+  
+
 
     
     <script src="/assets/js/fuse.js"></script>
@@ -362,6 +397,25 @@
         });
       }
     </script>
+
+ 
+
+     
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    if(document.cookie.indexOf('modal_shown') >=0){
+      
+    } else {
+    $('#onload').modal('show');
+    document.cookie="modal_shown=seen";
+      }
+  });
+</script>
+
+
+
+
 
 </body>
 </html>

@@ -199,6 +199,10 @@
 
   
   <script src="/assets/js/main.js"></script>
+    
+    <script src="/assets/jq/jquery-3.6.0.min.js"></script>
+  
+
 
     
     <script src="/assets/js/fuse.js"></script>
@@ -216,6 +220,25 @@
         });
       }
     </script>
+
+ 
+
+     
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    if(document.cookie.indexOf('modal_shown') >=0){
+      
+    } else {
+    $('#onload').modal('show');
+    document.cookie="modal_shown=seen";
+      }
+  });
+</script>
+
+
+
+
 
 </body>
 </html>

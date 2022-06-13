@@ -246,3 +246,69 @@ td {
     float:left;
   }
 }
+
+.btn-signup-one{
+  background: rgb(88, 127, 204);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-signup-one:hover {
+  background: #008bd1;
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.3s;
+}
+
+.btn-signup-two{
+  border-color: rgb(88, 127, 204);
+  color: rgb(88, 127, 204);
+  transition: 0.3s;
+}
+
+.btn-signup-two:hover {
+  border-color: #008bd1;
+  color: #008bd1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.3s;
+}
+
+
+
+@media (min-width: 500px) {
+  .modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+} 
+
+@media (max-width: 500px) {
+  .modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 30%;
+    vertical-align: middle;
+  }
+  
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+} 
