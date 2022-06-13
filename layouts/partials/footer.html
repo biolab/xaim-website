@@ -77,6 +77,10 @@
 
   <!-- Template Main JS File -->
   <script src="{{ .Site.BaseURL }}assets/js/main.js"></script>
+    <!-- Template Main JQ File -->
+    <script src="{{ .Site.BaseURL }}assets/jq/jquery-3.6.0.min.js"></script>
+  
+
 
     <!-- Search -->
     <script src="{{ .Site.BaseURL }}assets/js/fuse.js"></script>
@@ -94,6 +98,25 @@
         });
       }
     </script>
+
+ 
+
+     
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    if(document.cookie.indexOf('modal_shown') >=0){
+      // do nothing
+    } else {
+    $('#onload').modal('show');
+    document.cookie="modal_shown=seen";
+      }
+  });
+</script>
+
+
+
+
 
 </body>
 </html>
