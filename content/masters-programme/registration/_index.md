@@ -1,10 +1,10 @@
 ---
 title: "Registration"
 layout: "registration"
----
+--- 
 
 The call for applications is now open!
-Prospective students can apply by **June 30th 2022**.
+Prospective students can apply by **July 31th 23:59 CEST**.
 The top 80% of students who will successfully graduate will receive a Thesis Award of 2,500 €.
 
 Relevant links:
