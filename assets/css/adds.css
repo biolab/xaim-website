@@ -312,3 +312,32 @@ td {
     vertical-align: middle;
   }
 } 
+ 
+.syl-table-light-green {
+  background-color: #cef6ec;
+  border-color: #95d0c3 !important;
+  border-width: 1px !important; 
+}
+.syl-table-white {
+   border-color: #95d0c3 !important;
+  border-width: 1px !important; 
+}
+.syl-table-dark-green {
+  color: #c4ffff;
+  background-color: #23c096;
+  border-color: #95d0c3 !important;
+  border-width: 1px !important; 
+}
+
+.download-pdf-text{
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.download-pdf-text:hover{
+  font-size: 18px;
+  color: #0f7760 !important;
+  transition: 0.3s;
+}
+
+ 
