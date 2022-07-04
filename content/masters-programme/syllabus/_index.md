@@ -1,0 +1,6 @@
+---
+title: "Syllabus"
+layout: "syllabus"
+--- 
+
+ 
