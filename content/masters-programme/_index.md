@@ -9,7 +9,7 @@ The importance of artificial intelligence (AI) is increasing worldwide. Its pote
 
 It is therefore extremely important to address the lack of digital skills in this area by training qualified healthcare professionals in the field of AI and computer scientists in the field of healthcare.
 
-**With our new master's program, we want to address this issue.**
+**With our new fully online master's program, we want to address this issue.**
 
 ### THE XAIM MASTER'S DEGREE PROGRAM - AN OVERVIEW
 
@@ -26,7 +26,7 @@ Additionally, each applicant has to provide evidence of:
 
 ### COURSES AND TEACHING LANGUAGE
 
-The master's program consists of three semesters, of which the first two include three compulsory courses each and a selection of electives. The third semester is dedicated to writing the master's thesis. The language of instruction is English. The individual courses are covered by the faculties of the participating universities.
+The master's program consists of three semesters, of which the first two include three compulsory courses each and a selection of electives. The third semester is dedicated to writing the master's thesis. The language of instruction is English. The individual courses are covered by the faculties of the participating universities. More details on the courses are available in the [Syllabus](/masters-programme/registration/).
 
 ### FIRST SEMESTER
 

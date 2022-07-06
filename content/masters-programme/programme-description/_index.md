@@ -1,13 +1,15 @@
 ---
-title: "Programme Description"
-layout: "programme_description"
+title: "Masters Programme"
+
+real_title: "eXplainable Artificial Intelligence in healthcare Management (xAIM)"
+layout: "masters-programme"
 ---
 
 The importance of artificial intelligence (AI) is increasing worldwide. Its potential is also becoming more and more apparent with regard to the challenges in the healthcare sector.
 
 It is therefore extremely important to address the lack of digital skills in this area by training qualified healthcare professionals in the field of AI and computer scientists in the field of healthcare.
 
-**With our new master's program, we want to address this issue.**
+**With our new fully online master's program, we want to address this issue.**
 
 ### THE XAIM MASTER'S DEGREE PROGRAM - AN OVERVIEW
 
@@ -24,7 +26,7 @@ Additionally, each applicant has to provide evidence of:
 
 ### COURSES AND TEACHING LANGUAGE
 
-The master's program consists of three semesters, of which the first two include three compulsory courses each and a selection of electives. The third semester is dedicated to writing the master's thesis. The language of instruction is English. The individual courses are covered by the faculties of the participating universities.
+The master's program consists of three semesters, of which the first two include three compulsory courses each and a selection of electives. The third semester is dedicated to writing the master's thesis. The language of instruction is English. The individual courses are covered by the faculties of the participating universities. More details on the courses are available in the [Syllabus](/masters-programme/registration/).
 
 ### FIRST SEMESTER
 
@@ -79,4 +81,3 @@ The project is coordinated by the University of Pavia and includes the Goethe Un
 ### SUPPORTED BY
 
 This master's degree program is run under the context of Action No 2020-EU-IA-0064, co-financed by the EU CEF Telecom under GA nr. INEA/CEF/ICT/A2020/2265375.
-
