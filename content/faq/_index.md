@@ -39,7 +39,7 @@ The following administrative fees are charged to each student:
 <!--- QUESTION 5-->
 {{% faq-question-answer question-number="5" question-title="When does the first semester start and end?" %}}
 
-The semester starts on September 26, 2022 - end on December 22, 2022.
+The semester starts on January, 2023 - end of April, 2024.
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 6-->
@@ -80,10 +80,10 @@ From a minimum of 20 up to 35 students.
 This is not possible since attendance is compulsory for at least 75% of the total amount of hours. The learning period cannot be suspended. No transfer to other Masters is allowed.
 {{% /faq-question-answer %}}
 
-<!--- QUESTION 1-->
+<!--- QUESTION 12-->
 {{% faq-question-answer question-number="12" question-title="When should I register, and which documentation will you ask for?" %}}
-
-The application for the first intake (October 2022) opens in Spring 2022.
+ 
+The application for the first intake (January 2023) opens in Spring 2022.
 The following documents will be required to apply to the call:
 -   Curriculum Vitae;
 -   Scientific publications (if any);
@@ -91,8 +91,3 @@ The following documents will be required to apply to the call:
 
 The [Call for Application](https://xaim.eu/masters-programme/registration/) is OPEN!
 {{% /faq-question-answer %}}
- 
- 
- 
-
-
