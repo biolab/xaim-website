@@ -219,6 +219,7 @@ td {
   padding-bottom: 3px;
   padding-left: 7px;
   padding-right: 7px;
+  font-weight: 600;
 }
 
 .header-title-logo:hover {
@@ -228,10 +229,12 @@ td {
   padding-bottom: 3px;
   padding-left: 7px;
   padding-right: 7px;
+  font-weight: 600;
 }
 
 .header-title-logo {
   transition: all 0.3s linear;
+  font-weight: 600;
 }
 
 .size-footer-image {
@@ -340,4 +343,11 @@ td {
   transition: 0.3s;
 }
 
- 
+.faq-title {
+  font-weight: bold;
+  color:#434343
+}
+
+.font-weight-medium {
+	font-weight: 500 !important;
+}
