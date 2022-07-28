@@ -24,3 +24,8 @@ twitter = "https://twitter.com/MSc_xAIM"
 facebook = "https://www.facebook.com/xaimeu-110636898318864"
 instagram = "https://www.instagram.com/xaim.eu/"
 linkedin = "https://www.linkedin.com/company/xaim-project/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,12 @@
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading{{.Get "question-number"}}">
+      <button class="accordion-button collapsed faq-title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{.Get "question-number"}}" aria-expanded="false" aria-controls="flush-collapse{{.Get "question-number"}}">
+        {{.Get "question-number"}}. {{.Get "question-title"}}
+      </button>
+    </h2>
+    <div id="flush-collapse{{.Get "question-number"}}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{.Get "question-number"}}" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">{{ .Inner }}</div>
+    </div>
+  </div>
+</div>
