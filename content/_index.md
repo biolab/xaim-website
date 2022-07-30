@@ -4,7 +4,7 @@ title: "Home Page"
 hero_title: "eXplainable Artificial Intelligence in Healthcare Management"
 hero_subtitle: "A new Online Interdisciplinary Master’s Program at the Intersection of AI and Health Care"
 
-cfp: "The call for applications is now open! You can apply by July 31th 23:59 CEST. The top 80% of students who will successfully graduate will receive a Thesis Award of 2,500 €."
+cfp: "The call for applications is now open! You can apply by October 31th. The top 80% of students who will successfully graduate will receive a Thesis Award of 2,500 €."
  
 about_title: "About"
 

@@ -4,7 +4,7 @@ layout: "registration"
 --- 
 
 The call for applications is now open! Before starting the application, read carefully the registration guide.
-Prospective students can apply by **July 31th 23:59 CEST**.
+Prospective students can apply by **You can apply by October 31th**.
 The top 80% of students who will successfully graduate will receive a Thesis Award of 2,500 €.
 
 Relevant links:
