@@ -1,0 +1,98 @@
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  
+    <!-- Demo styles -->
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+  
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!-- Swiper -->
+    <section id="team" class="pb-0">
+      <div class="py-2 team4">
+        <div class="container">
+          <div class="row justify-content-center mb-4">
+            <div class="col-md-7 text-center">
+              <h2 class="color-grey mb-3" data-aos="fade-up">{{ site.Params.team_title }}</h2>
+            </div>
+          </div>
+  
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper mb-5">
+              {{ range sort (where site.RegularPages "Type" "testimonials") "Params.surname" "asc" }}
+              <div class="swiper-slide" >
+                <div   class="row team-border1 team-border3 " data-aos="zoom-in" >
+                  <div class="col">
+                    <img src="{{ .Params.profile_picture | absURL}} " alt="wrapkit" class="px-5 img-fluid rounded-circle" />
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <div class="pt-2">
+                      <h4 class="mt-4 font-weight-medium mb-0">{{ .Params.Name }}</h4>
+                      <h6 class="  mb-0  ">{{ .Params.Occupation }}</h6>
+                      <h6 class="  mb-3  ">{{ .Params.Location }}</h6>
+                      <p class=" mb-3">"{{ .Params.Testimonial }}"</p>
+                      <ul class="list-inline">
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </section>
+  
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
