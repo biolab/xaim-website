@@ -196,6 +196,7 @@ a.text-dark:hover {
 td {
   width: 33% ;
 } 
+
 @media (max-width: 700px) {
   .team-border1{
     padding: 0;
@@ -209,6 +210,15 @@ td {
     padding-left: 3rem;
     margin-right: 1rem;
     margin-left: 1rem;
+  }
+} 
+
+@media (min-width: 700px) {
+  .team-border3{
+    padding-right: 0rem; 
+    padding-left: 0rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
 } 
 
@@ -350,4 +360,56 @@ td {
 
 .font-weight-medium {
 	font-weight: 500 !important;
+}
+
+.master1 th, td {
+  padding-right: 40px !important;
+}
+
+.master2 {
+  padding-bottom: 10px;
+}
+
+.master3 {
+  vertical-align: top !important;
+}
+
+.colored-underline-text {
+  color:#126974;
+  text-decoration: underline;
+}
+
+mark.darkblue{
+  color:#123b74;
+  background: none;
+  font-weight: 600;
+  padding: 0px !important;
+}
+
+mark.turqblue{
+  color:#19ab9f;
+  background: none;
+  padding: 0px !important;
+}
+
+mark.courses{
+  color:#126974;
+  background: none;
+  font-weight: 600;
+  padding: 0px !important;
+}
+
+.darkblue{
+  color:#123b74;
+  background: none;
+}
+
+.courses{
+  color:#126974;
+  background: none;
+  font-weight: 600;
+}
+
+.line-height {
+  line-height: 100% !important;
 }
