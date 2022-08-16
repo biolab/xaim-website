@@ -39,13 +39,13 @@ The following administrative fees are charged to each student:
 <!--- QUESTION 5-->
 {{% faq-question-answer question-number="5" question-title="When does the first semester start and end?" %}}
 
-The semester starts on January, 2023 - end of April, 2024.
+The first semester starts on February 2023 and ends in May 2024.
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 6-->
 {{% faq-question-answer question-number="6" question-title="When does the second semester start and end?" %}}
 
-Start on February 20, 2023 - end May 27, 2023.
+The second semester starts on Octobber 2023 and ends in December 2023.
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 7-->
@@ -53,13 +53,15 @@ Start on February 20, 2023 - end May 27, 2023.
 
 There is an assessment of learning for each course through an intermediate test and/or a final test. According to the type of course delivered, these tests can be of different kinds (e.g., multiple-choice tests, reports, or project works) at the professors' discretion.
 
+To complete the degree, a student is expected to finish a 450-hour internship in the third semester, from January 2024 until April 2024. In this period, the students are also expected to write their theses.
+
 The final exam will consist of a thesis defence related to a project carried out under the supervision of a teacher of the Master's on the topics addressed during the courses, both during the practical exercises and the internship.
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 8-->
 {{% faq-question-answer question-number="8" question-title="When is the final exam planned?" %}}
 
-March 2024 (exact date TBC).
+April 2024 (exact date TBC).
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 9-->

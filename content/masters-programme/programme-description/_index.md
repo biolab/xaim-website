@@ -26,7 +26,7 @@ Additionally, each applicant has to provide evidence of:
 
 ### COURSES AND TEACHING LANGUAGE
 
-The master's program consists of three semesters, of which the first two include three compulsory courses each and a selection of electives. The third semester is dedicated to writing the master's thesis. The language of instruction is English. The individual courses are covered by the faculties of the participating universities. More details on the courses are available in the [Syllabus](/masters-programme/registration/).
+The master's program consists of three semesters, of which the first two include three compulsory courses each and a selection of electives. The third semester is dedicated to writing the master's thesis and the internship. The language of instruction is English. The individual courses are covered by the faculties of the participating universities. More details on the courses are available in the [Syllabus](/masters-programme/registration/).
 
 ### FIRST SEMESTER
 
