@@ -39,13 +39,13 @@ The following administrative fees are charged to each student:
 <!--- QUESTION 5-->
 {{% faq-question-answer question-number="5" question-title="When does the first semester start and end?" %}}
 
-The first semester starts on February 2023 and ends in May 2024.
+The first semester starts on February 2023 and ends in May 2023.
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 6-->
 {{% faq-question-answer question-number="6" question-title="When does the second semester start and end?" %}}
 
-The second semester starts on Octobber 2023 and ends in December 2023.
+The second semester starts on October 2023 and ends in December 2023.
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 7-->
