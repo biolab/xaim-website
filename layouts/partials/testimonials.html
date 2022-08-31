@@ -47,12 +47,42 @@
         <div class="container">
           <div class="row justify-content-center mb-4">
             <div class="col-md-7 text-center">
-              <h2 class="color-grey mb-3" data-aos="fade-up">{{ site.Params.team_title }}</h2>
+              <h2 class="color-grey mb-3" data-aos="fade-up">Testimonials</h2>
             </div>
           </div>
   
           <div class="swiper mySwiper">
             <div class="swiper-wrapper mb-5">
+
+              {{ $numoftest := (len (where .Site.RegularPages "Type" "testimonials")) }}
+              
+              {{ if eq $numoftest 1}} 
+              {{ range sort (where site.RegularPages "Type" "testimonials") "Params.surname" "asc" }}
+              <div class="swiper-slide" >
+              </div>
+              <div class="swiper-slide" >
+                <div   class="row team-border1 team-border3 " data-aos="zoom-in" >
+                  <div class="col">
+                    <img src="{{ .Params.profile_picture | absURL}} " alt="wrapkit" class="px-5 img-fluid rounded-circle" />
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <div class="pt-2">
+                      <h4 class="mt-4 font-weight-medium mb-0">{{ .Params.Name }}</h4>
+                      <h6 class="  mb-0  ">{{ .Params.Occupation }}</h6>
+                      <h6 class="  mb-3  ">{{ .Params.Location }}</h6>
+                      <p class=" mb-3">"{{ .Params.Testimonial }}"</p>
+                      <ul class="list-inline">
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+              </div>
+              {{ end }}
+              {{ end }}
+
+              {{ if gt $numoftest 1}} 
               {{ range sort (where site.RegularPages "Type" "testimonials") "Params.surname" "asc" }}
               <div class="swiper-slide" >
                 <div   class="row team-border1 team-border3 " data-aos="zoom-in" >
@@ -72,6 +102,12 @@
                 </div>
               </div>
               {{ end }}
+              {{ end }}
+
+
+
+
+
             </div>
             <div class="swiper-pagination"></div>
           </div>
