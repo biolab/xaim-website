@@ -8,5 +8,5 @@ The Master's has been built using a multidisciplinary approach that includes mor
 
 type: "testimonials"
 
-profile_picture: "images/testimonials/dancona.png"
+profile_picture: "images/testimonials/dancona.jpg"
 ---
