@@ -2,44 +2,48 @@
 title: "Admission Requirements"
 layout: "admission-requirements"
 ---
-The Master is addressed to those who have achieved:
 
-1. A degree diploma (three years) according to DD.MM. 509/99 and 270/04, in one of the following classes:  
-	 - Biotechnology L-2; 1 
-	 - Civil and Environmental Engineering L-7; 8
-	 - Information Engineering L-8; 9 
-	 - Industrial Engineering L-9; 10
-	 - Economics and Business Management L-18; 17 
-	 - Administration and Organization Sciences L-16 
-	 - Administrative Sciences 19 
-	 - Biological Sciences L-13; 12 
-	 - Chemical Sciences and Technology L-27; 21
-	 - Pharmaceutical Sciences and Technology L-29; 24 
-	 - Mathematical Sciences L-35; 32 
-	 - Computer Science L-31; 26 L-41 
-	 - Statistics Statistical Sciences 37 
-	 - Nursing and Midwifery Health Professions L/SNT1; SNT1
-	 - Rehabilitation Health Professions L/SNT2; SNT2 
-	 - Health Professions Techniques L/SNT3; SNT3 
-	 - Health Professions of Prevention L/SNT4; SNT4 
-<pre>
+{{% faq-question-answer question-number="1" question-title="A degree diploma (three years) according to DD.MM. 509/99 and 270/04, in one of the following classes:" %}}
 
-</pre>
-   
-2.  A Master degree in:  Medicine and Surgery LM41,46/S. 
-    1. degree obtained under the previous regulations in:
-        - Biotechnology Civil and Environmental Engineering 
-        - Information Engineering 
-        - Industrial Engineering 
-        - Biological Sciences 
-        - Administrative Sciences 
-        - Economics and Business Management 
-        - Chemical Sciences and Technology 
-        - Pharmaceutical Sciences and Technology 
-        - Computer Science and Technology 
-        - Mathematical Sciences 
-        - Statistical Sciences 
-        - Medicine and Surgery
+- Biotechnology L-2; 1 
+- Civil and Environmental Engineering L-7; 8
+- Information Engineering L-8; 9 
+- Industrial Engineering L-9; 10
+- Economics and Business Management L-18; 17 
+- Administration and Organization Sciences L-16 
+- Administrative Sciences 19 
+- Biological Sciences L-13; 12 
+- Chemical Sciences and Technology L-27; 21
+- Pharmaceutical Sciences and Technology L-29; 24 
+- Mathematical Sciences L-35; 32 
+- Computer Science L-31; 26 L-41 
+- Statistics Statistical Sciences 37 
+- Nursing and Midwifery Health Professions L/SNT1; SNT1
+- Rehabilitation Health Professions L/SNT2; SNT2 
+- Health Professions Techniques L/SNT3; SNT3 
+- Health Professions of Prevention L/SNT4; SNT4
+
+{{% /faq-question-answer %}}
+
+{{% faq-question-answer question-number="2" question-title="A Master degree in:  Medicine and Surgery LM41,46/S. " %}}
+
+1. degree obtained under the previous regulations in:
+	- Biotechnology Civil and Environmental Engineering 
+	- Information Engineering 
+	- Industrial Engineering 
+	- Biological Sciences 
+	- Administrative Sciences 
+	- Economics and Business Management 
+	- Chemical Sciences and Technology 
+	- Pharmaceutical Sciences and Technology 
+	- Computer Science and Technology 
+	- Mathematical Sciences 
+	- Statistical Sciences 
+	- Medicine and Surgery
+
+{{% /faq-question-answer %}}
+
+{{% faq-question-answer question-number="3" question-title="Additional entry criteria" %}}
 
 **The maximum number of enrolled students is 35.  
 The minimum number of students to activate the course is 20.**
@@ -76,4 +80,4 @@ xAIM master's degree.
 It is considered passed with a minimum score of 30.  
 In the event of a tie, the candidate with the youngest age bracket prevails.  
 In the event of the withdrawal of one or more candidates, the places made available will be made available according to the merit list, until the places are exhausted.
- 
+{{% /faq-question-answer %}}
