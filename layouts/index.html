@@ -9,10 +9,10 @@
 				<div>
 					<h1>{{ .Params.hero_title }}</h1>
 					<h2>{{ .Params.hero_subtitle }}</h2>
-					<div><b>{{ .Params.cfp }}</b></div>
+					<div><b>{{ .Params.start }}</b><br>
+					 	 <b>{{ .Params.end }}</b>
+					</div>
 					<br>
-					<a href="/pdf-files/xAIM%20Master's%20Brochure.pdf" class="btn-get-started scrollto"  target="_blank">See Brochure</a>
-					<a href="/masters-programme/registration/" class="btn-get-started"  target="_blank">Apply</a>
 				</div>
 			</div>
 			<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
@@ -40,17 +40,27 @@
 					<div class="content pt-4 pt-lg-0">
 						<h3>{{ .Params.about_title }}</h3>
 						<p>
-							{{.Content}}
+							<ul>
+								<li>Role and applications of AI techniques in the healthcare sector</li>
+								<li>Opportunities and challenges of the data-driven approach in a medical environment</li>
+								<li>Analyze and interpret complex datasets from the healthcare sector, and communicate them to the stakeholders</li>
+								<li>Understanding and facing ethical and social implications of AI and new technologies</li>
+								<li>New programming skills for your future (deep learning, text mining, computer vision and more)</li>
+							</ul>
 						</p>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</section><!-- End About Section -->
 
- 	{{ partial "news.html" . }}
-	{{ partial "questionnaire.html" . }}
+	<!-- ======= About Section ======= -->
+	<section id="about" class="about">
+		<div class="col-lg-6">
+					{{.Content}}
+		</div>
+	</section>
+
+	{{ partial "main.html" . }}
 	{{ partial "testimonials.html" . }} 
-	{{ partial "partners.html" . }}
  {{ end}}
