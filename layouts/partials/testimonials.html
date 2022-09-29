@@ -82,7 +82,10 @@
               {{ end }}
               {{ end }}
 
+              
+
               {{ if gt $numoftest 1}} 
+
               {{ range sort (where site.RegularPages "Type" "testimonials") "Params.surname" "asc" }}
               <div class="swiper-slide" >
                 <div   class="row team-border1 team-border3 " data-aos="zoom-in" >
@@ -103,10 +106,6 @@
               </div>
               {{ end }}
               {{ end }}
-
-
-
-
 
             </div>
             <div class="swiper-pagination"></div>
