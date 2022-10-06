@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en-gb" }}">
+<html lang="{{ .Site.LanguageCode | default "ko-kr" }}">
 <head>
 {{ partial "head.html" . }}
 </head>
@@ -9,21 +9,21 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a class="header-title-logo not-bold"href="{{site.BaseURL}}">xAIM</a></h1>
+        <h1><a class="header-title-logo "href="{{site.BaseURL}}">xAIM</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
-      <nav id="navbar" class=" navbar order-last order-lg-0">
+      <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="font-weight-medium nav-link scrollto active" href="#hero">Home</a></li>
-          <li class="dropdown"><a class="font-weight-medium" href="#"><span>Master's Programme</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a class="font-weight-medium nav-link scrollto" href="{{site.BaseURL}}">Home</a></li>
+          <li class="dropdown"><a class="font-weight-medium" href="/masters-programme"><span>Master's Programme</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-                <li><a class="font-weight-medium" href="masters-programme/programme-description">Programme Description</a></li>
-                <li><a class="font-weight-medium" href="masters-programme/internship">Internship</a></li>
+                <li><a class="font-weight-medium" href="/masters-programme/programme-description">Programme Description</a></li>
+                <li><a class="font-weight-medium" href="/masters-programme/internship">Internship</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a class="font-weight-medium" href="#"><span>How to Apply</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a class="font-weight-medium" href="/how-to-apply"><span>How to Apply</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a class="font-weight-medium" href="/how-to-apply/application-procedure">Application Procedure and Form</a></li>
               <li><a class="font-weight-medium" href="/how-to-apply/admission-requirements">Admission Requirements</a></li>
@@ -32,15 +32,17 @@
               <li><a class="font-weight-medium" href="/how-to-apply/call-for-applications">Call for Applications</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a class="font-weight-medium" href="#"><span>The Project</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a class="font-weight-medium" href="/project"><span>The Project</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a class="font-weight-medium" href="project/the-project">Programme Description</a></li>
-              <li><a class="font-weight-medium" href="project/news">News</a></li>
+              <li><a class="font-weight-medium" href="/project">Programme Description</a></li>
+              <li><a class="font-weight-medium" href="/news">News</a></li>
             </ul>
           <li><a class="font-weight-medium nav-link" href="/faq">FAQ</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+      
+
 
       <div class="header-social-links d-flex align-items-center">
         {{ if (not (isset site.Params "twitter")) | or (eq site.Params.twitter "") }}
@@ -55,13 +57,6 @@
         {{ if (not (isset site.Params "linkedin")) | or (eq site.Params.linkedin "") }}
         {{ else }} <a href="{{ site.Params.linkedin }}" class="linkedin"><i class="bi bi-linkedin"></i></a> {{ end }}
       </div>
-
-      <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    
-      {{ with .OutputFormats.Get "rss" -}}
-        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-      {{ end -}}
 
     </div>
   </header><!-- End Header -->
