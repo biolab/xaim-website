@@ -1,6 +1,8 @@
 ---
 title: "Application Procedure and Form"
 layout: "application-procedure"
+aliases:
+    - /how-to-apply/
 ---
 
 The call for applications is now open! Before starting the application, please carefully read the [Registration Guide](/how-to-apply/registration-guide) and the [Master Call](/how-to-apply/call-for-applications). The maximum number of students who can enroll in this master program for each year is 35.
