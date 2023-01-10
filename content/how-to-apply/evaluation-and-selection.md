@@ -1,6 +1,6 @@
 ---
 title: "Evaluation and Selection"
-layout: "evaluation-and-selection"
+layout: "application-procedure"
 ---
 
 A special Commission deals with the procedure for evaluating and selecting candidates, this procedure is divided into two phases:

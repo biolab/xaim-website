@@ -1,6 +1,6 @@
 ---
 title: "Admission Requirements"
-layout: "admission-requirements"
+layout: "application-procedure"
 ---
 
 Since the Master Programme is completely taught in English, fluency is required (e.g. B2 Level)

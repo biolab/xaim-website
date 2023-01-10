@@ -1,6 +1,6 @@
 ---
 title: "Questionnaire"
-layout: "questionnaire"
+layout: "registration"
 --- 
 
 Are you considering applying to the xAIM Master? Please fill in our preliminary [questionnaire](https://forms.gle/Ek6GvHuPCbb73xw6A): we would like to know more about you and your interests.

@@ -1,6 +1,6 @@
 ---
 title: "Registration Guide"
-layout: "registration-guide"
+layout: "application-procedure"
 ---
 
 #### Step 1: Preread
