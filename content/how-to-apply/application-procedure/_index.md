@@ -16,3 +16,7 @@ The top 80% of students who will successfully graduate will receive a Thesis Awa
 ##### How to Apply  
 - If you wish to apply for xAIM – [Application Form](https://studentionline.unipv.it/esse3/Home.do;jsessionid=F90A62F1279E9D8D424554A14B5CCC9B.esse3-unipv-prod-02?cod_lingua=eng)
 - If you need more information about the Master's programme or the application procedure, please fill in our [questionnaire](/how-to-apply/questionnaire).
+
+##### Application Results for class of 2023
+
+- [List of accepted students](http://file.biolab.si/xaim/2023-xAIM-selected-students.pdf) (the document is password-protected)
