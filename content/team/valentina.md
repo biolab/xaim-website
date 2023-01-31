@@ -4,7 +4,7 @@ surname: "Beretta"
 
 type: "team"
 
-occupation: "Postdoctoral Researcher"
+occupation: "Teaching Manager"
 profile_picture: "images/team_members/valentina.jpg"
 
 github: ""

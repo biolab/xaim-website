@@ -4,7 +4,7 @@ surname: "Demartini"
 
 type: "team"
 
-occupation: "Associate Professor"
+occupation: "Project Coordinator"
 profile_picture: "images/team_members/chiara.jpg"
 
 github: ""

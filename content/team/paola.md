@@ -4,7 +4,7 @@ surname: "Cerchiello"
 
 type: "team"
 
-occupation: "Assistant Professor"
+occupation: "Project Co-Coordinator"
 profile_picture: "images/team_members/paola.jpg"
 
 github: ""
