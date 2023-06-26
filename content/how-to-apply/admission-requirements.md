@@ -3,8 +3,7 @@ title: "Admission Requirements"
 layout: "application-procedure"
 ---
 
-Since the Master Programme is completely taught in English, fluency is required (e.g. B2 Level)
-You can apply for the xAIM Master if you hold at least one of the following degrees:
+Since the Master Programme is completely taught in English, fluency is required (e.g. B2 Level). You can apply for the xAIM Master if you hold at least one of the following degrees:
 
 {{% faq-question-answer question-number="1" question-title="A Bachelor's Degree (three years), in one of the following subjects:" %}}
 
@@ -78,10 +77,10 @@ For the complete list of admission criteria please read [admission requirements]
 
 **The maximum number of enrolled students is 35.  
 The minimum number of students to activate the course is 20.**
- 
-The Master program Evaluation Board may also evaluate whether there are conditions to expand the above quota of number of students.
 
-In case the number of applicants is higher than the maximum number foreseen, a Commission composed by the Coordinator and by two professors of the Master will make a selection and will formulate a merit list, expressed in hundredths, determined on the basis of the following evaluation criteria:
+A committee will evaluate all applications and invite prospective students to an interview.
+
+During the full application process, up to 100 points will be awarded. The applicants with the highest points will be offered a place in the master’s programme. A detailed breakdown of the points is as follows:
 
 **Up to a maximum of 15 points for the degree grade (this is intended to refer to the access title), distributed as follows:**
  - equal to 110/110 cum laude 15 points 

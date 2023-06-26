@@ -4,7 +4,7 @@ layout: "application-procedure"
 ---
 
 #### Step 1: Preread
-Please make sure that you read the [Call for applications](https://web.unipv.it/wp-content/uploads/2022/05/Call-xAIM.pdf) before you register for the Master's program.
+Please make sure that you read the Call for applications before you register for the Master’s program. We will make the call available in July 2023.
 
 #### Step 2: Prepare qualification documents to be uploaded:
 
@@ -38,4 +38,4 @@ For non-EU citizens, please check here if you need a [visa](https://vistoperital
 After uploading all the relevant documents, you will be asked to pay the application fee of 35€ by the enrolment deadline.
 
 #### Step 4: Enrolment
-The ranking list of those admitted to the Master's course will be published on the Master's Admission Office's website. To successfully enrol, please go to REVERSED_AREA for the missing steps and pay for the enrolment fee.
+The ranking list of those admitted to the Master’s course will be published on the Master’s Admission Office’s website. To successfully enroll, please go to REVERSED_AREA for the missing steps and pay for the enrollment fee.

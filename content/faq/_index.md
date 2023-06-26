@@ -21,9 +21,9 @@ The Master's corresponds to 90 ECTS.
 <!--- QUESTION 3-->
 {{% faq-question-answer question-number="3" question-title="What are the fees for the following course?" %}}
 
-The registration fee equals € 2,500 per student and includes:
-- secretarial fee of € 142.00
-- stamp duty (paid virtually on the matriculation application) of € 16.00
+The registration fee equals 4,900 EUR per student and includes:
+- secretarial fee of 142 EUR
+- stamp duty (paid virtually on the matriculation application) of 16 EUR
 
 Students who successfully graduate at the end of the Master's programme will have the possibility to ask for a grant to obtain a (partial) refund of the Master's fee.
 {{% /faq-question-answer %}}
@@ -39,13 +39,13 @@ The following administrative fees are charged to each student:
 <!--- QUESTION 5-->
 {{% faq-question-answer question-number="5" question-title="When does the first semester start and end?" %}}
 
-The first semester starts on February 2023 and ends in May 2023.
+TBD
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 6-->
 {{% faq-question-answer question-number="6" question-title="When does the second semester start and end?" %}}
 
-The second semester starts on October 2023 and ends in December 2023.
+TBD
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 7-->
@@ -53,15 +53,16 @@ The second semester starts on October 2023 and ends in December 2023.
 
 There is an assessment of learning for each course through an intermediate test and/or a final test. According to the type of course delivered, these tests can be of different kinds (e.g., multiple-choice tests, reports, or project works) at the professors' discretion.
 
-To complete the degree, a student is expected to finish a 450-hour internship in the third semester, from January 2024 until April 2024. In this period, the students are also expected to write their theses.
+To complete the degree, a student is expected to finish a 450-hour internship in the third semester. In this period, the students are also expected to write their theses.
 
-The final exam will consist of a thesis defence related to a project carried out under the supervision of a teacher of the Master's on the topics addressed during the courses, both during the practical exercises and the internship.
+The final exam will consist of a thesis defense related to a project carried out under the supervision of a teacher of the Master’s on the topics addressed during the courses, both during the practical exercises and the internship.
+
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 8-->
 {{% faq-question-answer question-number="8" question-title="When is the final exam planned?" %}}
 
-April 2024 (exact date TBC).
+TBD.
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 9-->
@@ -85,11 +86,9 @@ This is not possible since attendance is compulsory for at least 75% of the tota
 <!--- QUESTION 12-->
 {{% faq-question-answer question-number="12" question-title="When should I register, and which documentation will you ask for?" %}}
  
-The application for the first intake (January 2023) opens in Spring 2022.
-The following documents will be required to apply to the call:
+The application for the next intake opens in July 2023. The following documents will be required to apply to the call:
 -   Curriculum Vitae;
 -   Scientific publications (if any);
 -   Reference letter.
 
-The [Call for Application](https://xaim.eu/masters-programme/registration/) is OPEN!
 {{% /faq-question-answer %}}
