@@ -37,15 +37,15 @@ The following administrative fees are charged to each student:
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 5-->
-{{% faq-question-answer question-number="5" question-title="When does the first semester start and end?" %}}
+{{% faq-question-answer question-number="5" question-title="When does the first semester start?" %}}
 
-TBD
+February 2025
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 6-->
-{{% faq-question-answer question-number="6" question-title="When does the second semester start and end?" %}}
+{{% faq-question-answer question-number="6" question-title="When does the second semester start?" %}}
 
-TBD
+September 2025
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 7-->
@@ -72,7 +72,7 @@ The University of Pavia will award the Master's degree. At the end of the Master
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 10-->
-{{% faq-question-answer question-number="10" question-title="How many students do you foresee for the first edition of the Master?" %}}
+{{% faq-question-answer question-number="10" question-title="How many students do you foresee for the next edition of the Master?" %}}
 
 From a minimum of 20 up to 35 students.
 {{% /faq-question-answer %}}
@@ -86,7 +86,7 @@ This is not possible since attendance is compulsory for at least 75% of the tota
 <!--- QUESTION 12-->
 {{% faq-question-answer question-number="12" question-title="When should I register, and which documentation will you ask for?" %}}
  
-The application for the next intake opens in July 2023. The following documents will be required to apply to the call:
+The application for the next intake is already open. The following documents will be required to apply to the call:
 -   Curriculum Vitae;
 -   Scientific publications (if any);
 -   Reference letter.

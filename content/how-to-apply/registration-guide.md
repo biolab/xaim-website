@@ -4,7 +4,7 @@ layout: "application-procedure"
 ---
 
 #### Step 1: Preread
-Please make sure that you read the Call for applications before you register for the Master’s program. We will make the call available in July 2023.
+Please make sure that you read the Call for applications before you register for the Master’s program. The call is already available.
 
 #### Step 2: Prepare qualification documents to be uploaded:
 
