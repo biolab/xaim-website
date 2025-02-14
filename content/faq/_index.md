@@ -25,7 +25,6 @@ The registration fee equals 4,900 EUR per student and includes:
 - secretarial fee of 142 EUR
 - stamp duty (paid virtually on the matriculation application) of 16 EUR
 
-Students who successfully graduate at the end of the Master's programme will have the possibility to ask for a grant to obtain a (partial) refund of the Master's fee.
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 4-->
