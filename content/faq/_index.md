@@ -38,13 +38,13 @@ The following administrative fees are charged to each student:
 <!--- QUESTION 5-->
 {{% faq-question-answer question-number="5" question-title="When does the first semester start?" %}}
 
-February 2025
+February 2026
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 6-->
 {{% faq-question-answer question-number="6" question-title="When does the second semester start?" %}}
 
-September 2025
+September 2026
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 7-->
@@ -61,7 +61,7 @@ The final exam will consist of a thesis defense related to a project carried out
 <!--- QUESTION 8-->
 {{% faq-question-answer question-number="8" question-title="When is the final exam planned?" %}}
 
-TBD.
+TBD
 {{% /faq-question-answer %}}
 
 <!--- QUESTION 9-->

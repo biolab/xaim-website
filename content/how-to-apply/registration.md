@@ -4,12 +4,11 @@ layout: "registration"
 --- 
 
 The call for applications is now open! Before starting the application, read carefully the registration guide.
-Prospective students can apply by **You can apply by October 31th**.
-The top 80% of students who will successfully graduate will receive a Thesis Award of 2,500 €.
+Prospective students can apply by **You can apply by January 11th, 2026**.
 
 Relevant links:
-- [Registration guide](https://web.unipv.it/wp-content/uploads/2022/05/Screenshots-Registration-Admission-PagoPA-xAIM.pdf)
-- [Call for applications](https://web.unipv.it/wp-content/uploads/2022/05/Call-xAIM.pdf)
-- **[Application Form](https://studentionline.unipv.it/esse3/Home.do;jsessionid=F90A62F1279E9D8D424554A14B5CCC9B.esse3-unipv-prod-02?cod_lingua=eng)**
+- [Registration guide](https://en.unipv.it/sites/sten/files/2024-07/TUTORIAL_Registration%20%2B%20Application.pdf)
+- [Call for applications](https://en.unipv.it/sites/sten/files/2025-07/Call%20for%20admission.pdf)
+- **[Application Form](https://en.unipv.it/en/education/post-graduate-programs/vocational-programs-and-advanced-courses/how-apply-and-enroll#accordion5159)**
 - [Details on the Master's of University of Pavia](https://web.unipv.it/formazione/master-universitari/master-di-primo-livello/)
 - Contact: info@xaim.eu

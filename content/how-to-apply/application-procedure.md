@@ -5,7 +5,7 @@ aliases:
     - /how-to-apply/
 ---
 
-The call for applications now closed!
+The call for applications now open!
 
 The maximum number of students who can enroll in this master program for each year is 35.
 
