@@ -32,7 +32,7 @@ Further documents needed for the application:
 
 Note that for candidates with a qualification awarded abroad, the 'declaration of value' and the alternative document should be awarded. → Look at the Art.3 of 'Call for admission'.
 
-For non-EU citizens, please check here if you need a [visa](https://vistoperitalia.esteri.it/home/en). If you do, please complete your enrolment on the [Universitaly portal](https://www.universitaly.it/), contacting the Master's Administration Office.
+For non-EU citizens, please check here if you need a [visa](https://vistoperitalia.esteri.it/). If you do, please complete your enrolment on the [Universitaly portal](https://www.universitaly.it/), contacting the Master's Administration Office.
 
 #### Step 3: Application fee
 After uploading all the relevant documents, you will be asked to pay the application fee of 35€ by the enrolment deadline.
